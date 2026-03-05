@@ -1,0 +1,27 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments (The big folders you want to skip)
+.venv/
+venv/
+ENV/
+env/
+Lib/
+Include/
+Scripts/
+pyvenv.cfg
+
+# Database & Sensitive info
+.env
+*.db
+*.sqlite3
+
+# OS related
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
